@@ -1,4 +1,4 @@
-<?php 
+<?php
 error_reporting(0);
 $server = "localhost";
 $user = "root";
@@ -10,4 +10,3 @@ if (!$conn) {
 	die("connection Filed Due To -".mysqli_connect_error($conn));
 }
 //echo "Connection Successfull";
-?>
